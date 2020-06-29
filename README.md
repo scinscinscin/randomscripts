@@ -8,8 +8,12 @@ This repo contains a bunch of scripts that I create becaise I'm bored or need to
 
 GiveMinecraftName.sh - gives you a generic minecraft server name
 
-gibrom.sh - Rips the images from the-rom.eu
-
-mcFilesRipper.sh - gets all the files from mojangs servers, unlike mcjavaripper which only gets the client jars
+gibrom.sh - rips the images from the-rom.eu
 
 trackTemp.sh - displays the current temp of your pc every X seconds
+
+### mcripper
+
+clients.sh - gets all client jars straight from mojangs servers
+
+everything.sh - gets everything from mojangs servers
