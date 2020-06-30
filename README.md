@@ -16,4 +16,6 @@ trackTemp.sh - displays the current temp of your pc every X seconds
 
 clients.sh - gets all client jars straight from mojangs servers
 
+servers.sh - same as above but for server jars
+
 everything.sh - gets everything from mojangs servers
