@@ -12,7 +12,7 @@ do
    jsonurl=$(sed "${c}q;d" minecraftjsons)
    jarurl=$(curl -s "${jsonurl}" | jq -r '.downloads.server.url')
    jarver=$(curl -s "${jsonurl}" | jq -r '.id')
-   if [[ "${jarver}" == "1.2.5" ]]; then
+   if [[ "${jarver}" == "1.2.4" ]]; then
    	exit
    fi
    echo "Getting ${jarver} at ${jarurl}"
